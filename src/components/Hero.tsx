@@ -11,10 +11,10 @@ export default function Hero() {
           <div className="flex flex-col items-center space-y-6 text-center">
             <div className="max-w-3xl space-y-4">
               <h1 className="text-4xl font-bold tracking-tighter font-headline sm:text-5xl md:text-6xl lg:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-primary via-emerald-400 to-primary-foreground">
-                Creative Developer & UI Enthusiast
+                DevOps & Cloud Infrastructure Engineer
               </h1>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                I build beautiful, responsive, and highly performant web applications that provide seamless user experiences.
+                I build and maintain scalable, highly available, and secure cloud infrastructure using modern DevOps practices.
               </p>
             </div>
             <div className="flex flex-col gap-4 min-[400px]:flex-row">
