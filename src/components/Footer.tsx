@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 
 export default function Footer() {
   return (
-    <footer className="w-full py-6 bg-secondary">
+    <footer className="w-full py-6 bg-secondary/50">
       <div className="container flex flex-col items-center justify-between gap-4 px-4 md:flex-row md:px-6">
         <p className="text-sm text-muted-foreground">&copy; {new Date().getFullYear()} Profolio. All rights reserved.</p>
         <div className="flex items-center gap-2">

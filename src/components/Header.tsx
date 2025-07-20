@@ -6,17 +6,17 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from '@/components/ui/sheet';
 
 const navLinks = [
-  { href: '#about', label: 'About' },
-  { href: '#projects', label: 'Projects' },
-  { href: '#skills', label: 'Skills' },
-  { href: '#contact', label: 'Contact' },
+  { href: '/', label: 'About' },
+  { href: '/projects', label: 'Projects' },
+  { href: '/skills', label: 'Skills' },
+  { href: '/contact', label: 'Contact' },
 ];
 
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
-        <Link href="#" className="flex items-center gap-2">
+        <Link href="/" className="flex items-center gap-2">
           <span className="font-bold text-xl font-headline">Profolio</span>
         </Link>
         <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
@@ -27,11 +27,11 @@ export default function Header() {
           ))}
         </nav>
         <div className="flex items-center gap-4">
-          <a href="#contact">
+          <Link href="/contact">
             <Button className="hidden md:flex">
               Contact Me
             </Button>
-          </a>
+          </Link>
           <Sheet>
             <SheetTrigger asChild>
               <Button variant="outline" size="icon" className="md:hidden">
@@ -42,7 +42,7 @@ export default function Header() {
             <SheetContent side="left">
               <div className="grid gap-4 py-6">
                 <SheetClose asChild>
-                  <Link href="#" className="flex items-center gap-2 mb-4">
+                  <Link href="/" className="flex items-center gap-2 mb-4">
                     <span className="font-bold text-xl font-headline">Profolio</span>
                   </Link>
                 </SheetClose>
@@ -56,9 +56,9 @@ export default function Header() {
                   ))}
                 </nav>
                 <SheetClose asChild>
-                  <a href="#contact" className="mt-4">
+                  <Link href="/contact" className="mt-4">
                     <Button className="w-full">Contact Me</Button>
-                  </a>
+                  </Link>
                 </SheetClose>
               </div>
             </SheetContent>
