@@ -4,16 +4,28 @@ import AnimatedSection from '@/components/AnimatedSection';
 
 const education = [
   {
-    institution: 'University of Technology',
-    degree: 'Master of Science in Computer Science',
-    period: '2018 - 2020',
-    description: 'Focused on distributed systems, cloud computing, and network security. Completed a thesis on container orchestration efficiency.'
+    institution: 'BITS Pilani (WILP)',
+    degree: 'M.Tech in AI & ML',
+    period: '2025 - Present',
+    description: 'Currently pursuing a Master\'s degree to deepen my expertise in Artificial Intelligence and Machine Learning through the Work Integrated Learning Program.'
   },
   {
-    institution: 'State College',
-    degree: 'Bachelor of Science in Information Technology',
-    period: '2014 - 2018',
-    description: 'Gained a strong foundation in software development, database management, and systems administration.'
+    institution: 'SVR Engineering College',
+    degree: 'B.Tech in Electrical and Electronics Engineering',
+    period: '2019 - 2022',
+    description: 'Graduated with a Bachelor of Technology, specializing in Electrical and Electronics Engineering.'
+  },
+  {
+    institution: 'ESC Govt Polytechnic College',
+    degree: 'Diploma in Electrical and Electronics Engineering',
+    period: '2016 - 2019',
+    description: 'Completed a comprehensive diploma program, building a strong foundation in electrical and electronics principles.'
+  },
+  {
+    institution: 'Sri Guru Raja E.M School',
+    degree: 'High School',
+    period: '2015 - 2016',
+    description: 'Completed my high school education, preparing me for my future studies in technology and engineering.'
   },
 ];
 

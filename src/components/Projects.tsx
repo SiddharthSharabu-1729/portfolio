@@ -10,27 +10,27 @@ import { Button } from './ui/button';
 
 const projects = [
   {
-    title: 'Project Alpha',
-    description: 'An innovative e-commerce platform with a focus on user experience and performance.',
-    longDescription: 'Project Alpha redefines online shopping with a blazingly fast interface, personalized recommendations, and a seamless checkout process. Built with Next.js, TypeScript, and Stripe integration.',
-    image: 'https://placehold.co/600x400.png',
-    tags: ['Next.js', 'TypeScript', 'Stripe', 'Tailwind'],
+    title: 'The Deck Linux',
+    description: 'A custom open-source Linux flavor for the BeagleBoard AI single-board computer.',
+    longDescription: 'As part of my internship, I developed The Deck Linux, a specialized Linux distribution for the BeagleBoard AI. This project showcases my ability to create a tailored OS from the ground up. You can find the source code on SourceForge.',
+    image: 'https://i.imgur.com/eJpE54s.png',
+    tags: ['Linux', 'Open Source', 'BeagleBoard AI', 'Embedded Systems'],
     hint: 'web application'
   },
   {
-    title: 'Project Beta',
-    description: 'A social media dashboard for content creators to manage their online presence.',
-    longDescription: 'This dashboard provides creators with analytics, scheduling tools, and content management features across multiple platforms. The tech stack includes React, Firebase, and Chart.js.',
-    image: 'https://placehold.co/600x400.png',
-    tags: ['React', 'Firebase', 'Analytics', 'Charts'],
+    title: 'Face and Voice Recognition',
+    description: 'A proof-of-concept for a biometric security system using a Raspberry Pi.',
+    longDescription: 'This project explores the intersection of hardware and software, using a Raspberry Pi and OpenCV to create a functional face and voice recognition system. It demonstrates my skills in AI and embedded systems.',
+    image: 'https://i.imgur.com/jC4z2T6.jpeg',
+    tags: ['Raspberry Pi', 'OpenCV', 'AI', 'Biometrics'],
     hint: 'dashboard analytics'
   },
   {
-    title: 'Project Gamma',
-    description: 'A mobile-first application for tracking personal fitness goals and progress.',
-    longDescription: 'Gamifying fitness, this app encourages users to stay active with challenges, leaderboards, and social sharing. Developed using React Native and a Node.js backend.',
-    image: 'https://placehold.co/600x400.png',
-    tags: ['React Native', 'Node.js', 'Mobile', 'Gamify'],
+    title: 'Handwritten Digit Recognition',
+    description: 'A highly accurate AI model for recognizing handwritten digits.',
+    longDescription: 'I built and trained an AI model using Python and Keras that achieves 99.5% accuracy in recognizing handwritten digits. This project highlights my expertise in machine learning and data processing.',
+    image: '/images/sV20pW1.png',
+    tags: ['AI', 'Python', 'Keras', 'Machine Learning'],
     hint: 'fitness app'
   },
 ];
@@ -99,7 +99,9 @@ export default function Projects() {
                       <div className="flex gap-4 mt-6">
                         <Button>Live Demo <ArrowRight className="ml-2 h-4 w-4" /></Button>
                         <Button variant="secondary">
+                           <a href="https://sourceforge.net/u/siddharth-1729/" target="_blank" rel="noopener noreferrer" aria-label="SourceForge">
                            <Github className="mr-2 h-4 w-4" /> Code
+                           </a>
                         </Button>
                       </div>
                     </div>

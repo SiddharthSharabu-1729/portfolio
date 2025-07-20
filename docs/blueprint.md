@@ -1,4 +1,4 @@
-# **App Name**: Profolio
+# **App Name**: Portfolio
 
 ## Core Features:
 

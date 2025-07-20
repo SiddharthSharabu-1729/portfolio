@@ -11,10 +11,10 @@ export default function Hero() {
           <div className="flex flex-col items-center space-y-6 text-center">
             <div className="max-w-3xl space-y-4">
               <h1 className="text-4xl font-bold tracking-tighter font-headline sm:text-5xl md:text-6xl lg:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-primary via-emerald-400 to-primary-foreground">
-                DevOps & Cloud Infrastructure Engineer
+                Siddhartha Achari Sharabu
               </h1>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                I build and maintain scalable, highly available, and secure cloud infrastructure using modern DevOps practices.
+                As a Systems Engineer, I architect and manage robust, scalable IT infrastructure by leveraging deep expertise in cloud technologies, Linux, and container orchestration.
               </p>
             </div>
             <div className="flex flex-col gap-4 min-[400px]:flex-row">
@@ -28,17 +28,17 @@ export default function Hero() {
               </Link>
             </div>
             <div className="flex items-center gap-4 pt-4">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <a href="https://github.com/SiddharthSharabu-1729/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                     <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary">
                     <Github className="h-6 w-6" />
                     </Button>
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a href="https://linkedin.com/in/Siddharth-Sharabu" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                     <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary">
                     <Linkedin className="h-6 w-6" />
                     </Button>
                 </a>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                <a href="https://www.instagram.com/sid_reborn_350/" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                     <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary">
                     <Twitter className="h-6 w-6" />
                     </Button>

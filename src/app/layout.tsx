@@ -5,7 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Profolio | Personal Portfolio',
+  title: 'Portfolio | Personal Portfolio',
   description: 'A dynamic and professional personal portfolio created with Next.js.',
 };
 
