@@ -1,31 +1,48 @@
 import Image from 'next/image';
+import AnimatedSection from '@/components/AnimatedSection';
+import { Button } from './ui/button';
+import Link from 'next/link';
 
 export default function About() {
   return (
-    <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-secondary/50">
-      <div className="container px-4 md:px-6">
-        <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
-          <div className="space-y-4">
-            <h2 className="text-3xl font-bold tracking-tighter font-headline sm:text-4xl md:text-5xl text-primary">About Me</h2>
-            <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              I'm a passionate and creative developer with a knack for building beautiful, functional, and user-centric web applications. With a strong foundation in modern JavaScript frameworks and a keen eye for design, I strive to create seamless digital experiences.
-            </p>
-            <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a good cup of coffee while planning my next big project.
-            </p>
-          </div>
-          <div className="flex items-center justify-center">
-            <Image
-              src="https://placehold.co/400x400.png"
-              alt="A professional portrait"
-              width={400}
-              height={400}
-              className="rounded-full object-cover shadow-lg aspect-square"
-              data-ai-hint="professional portrait"
-            />
+    <AnimatedSection>
+      <section id="about" className="w-full py-24 md:py-32 lg:py-40 bg-background">
+        <div className="container px-4 md:px-6">
+          <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-24">
+            <div className="relative h-[400px] w-full lg:h-[500px]">
+                <Image
+                    src="https://placehold.co/600x600.png"
+                    alt="About Me"
+                    fill
+                    className="object-cover rounded-xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
+                    data-ai-hint="professional portrait"
+                />
+            </div>
+            <div className="space-y-6">
+              <div className="space-y-3">
+                <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
+                  About Me
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter font-headline sm:text-4xl md:text-5xl text-primary-foreground">A Passionate Creator for the Web</h2>
+              </div>
+              <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
+                I'm a developer with a keen eye for design and a love for crafting seamless, user-centric digital experiences. My journey in tech is driven by a desire to build things that are not only functional but also beautiful and intuitive.
+              </p>
+              <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
+                When I'm not bringing ideas to life with code, I enjoy exploring new technologies, contributing to open-source, and planning my next big project over a cup of coffee.
+              </p>
+              <div className="flex flex-col gap-4 sm:flex-row">
+                 <Link href="#contact">
+                    <Button size="lg">Get in Touch</Button>
+                 </Link>
+                 <Link href="#projects">
+                    <Button size="lg" variant="secondary">View My Work</Button>
+                 </Link>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </AnimatedSection>
   );
 }

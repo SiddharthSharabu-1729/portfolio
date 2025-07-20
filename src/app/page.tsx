@@ -1,10 +1,17 @@
+import Hero from '@/components/Hero';
 import About from '@/components/About';
-import AnimatedSection from '@/components/AnimatedSection';
+import Projects from '@/components/Projects';
+import Skills from '@/components/Skills';
+import Contact from '@/components/Contact';
 
 export default function Home() {
   return (
-    <AnimatedSection>
+    <>
+      <Hero />
       <About />
-    </AnimatedSection>
+      <Projects />
+      <Skills />
+      <Contact />
+    </>
   );
 }
