@@ -11,7 +11,7 @@ export default function About() {
           <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-24">
             <div className="relative h-[400px] w-full lg:h-[500px]">
                 <Image
-                    src="/images/me.jpg"
+                    src="/images/me-1.jpeg"
                     alt="About Me"
                     fill
                     className="object-cover rounded-xl shadow-2xl transform hover:scale-105 transition-transform duration-500"

@@ -7,12 +7,12 @@ import { Sheet, SheetContent, SheetTrigger, SheetClose } from '@/components/ui/s
 import { useState } from 'react';
 
 const navLinks = [
-  { href: '#about', label: 'About' },
-  { href: '#projects', label: 'Projects' },
-  { href: '#skills', label: 'Skills' },
-  { href: '#education', label: 'Education' },
-  { href: '#certifications', label: 'Certifications' },
-  { href: '#contact', label: 'Contact' },
+  { href: '/#about', label: 'About' },
+  { href: '/#projects', label: 'Projects' },
+  { href: '/#skills', label: 'Skills' },
+  { href: '/#education', label: 'Education' },
+  { href: '/#certifications', label: 'Certifications' },
+  { href: '/#contact', label: 'Contact' },
 ];
 
 export default function Header() {

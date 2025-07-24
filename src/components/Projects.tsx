@@ -13,7 +13,7 @@ const projects = [
     title: 'The Deck Linux',
     description: 'A custom open-source Linux flavor for the BeagleBoard AI single-board computer.',
     longDescription: 'As part of my internship, I developed The Deck Linux, a specialized Linux distribution for the BeagleBoard AI. This project showcases my ability to create a tailored OS from the ground up. You can find the source code on SourceForge.',
-    image: 'https://i.imgur.com/eJpE54s.png',
+    image: '/images/deck.jpg',
     tags: ['Linux', 'Open Source', 'BeagleBoard AI', 'Embedded Systems'],
     hint: 'web application'
   },
@@ -21,7 +21,7 @@ const projects = [
     title: 'Face and Voice Recognition',
     description: 'A proof-of-concept for a biometric security system using a Raspberry Pi.',
     longDescription: 'This project explores the intersection of hardware and software, using a Raspberry Pi and OpenCV to create a functional face and voice recognition system. It demonstrates my skills in AI and embedded systems.',
-    image: 'https://i.imgur.com/jC4z2T6.jpeg',
+    image: '/images/face.jpg',
     tags: ['Raspberry Pi', 'OpenCV', 'AI', 'Biometrics'],
     hint: 'dashboard analytics'
   },
@@ -29,7 +29,7 @@ const projects = [
     title: 'Handwritten Digit Recognition',
     description: 'A highly accurate AI model for recognizing handwritten digits.',
     longDescription: 'I built and trained an AI model using Python and Keras that achieves 99.5% accuracy in recognizing handwritten digits. This project highlights my expertise in machine learning and data processing.',
-    image: '/images/sV20pW1.png',
+    image: '/images/digit.png',
     tags: ['AI', 'Python', 'Keras', 'Machine Learning'],
     hint: 'fitness app'
   },
