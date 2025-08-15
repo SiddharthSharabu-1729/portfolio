@@ -10,6 +10,15 @@ import { Button } from './ui/button';
 
 const projects = [
   {
+    title: 'Fortress Vault',
+    description: 'A responsive web-based vault application for secure file and credential management.',
+    longDescription: 'Fortress Vault is a secure, responsive web application built for robust file and credential management. Leveraging Next.js for a dynamic frontend and Firebase for secure authentication and Firestore storage, it provides a seamless user experience. The application features role-based access control (RBAC) to ensure granular and secure permission management. The mobile-friendly UI, designed with Material UI components, offers an intuitive and consistent experience across all devices, making it easy to manage sensitive data on the go.',
+    image: '/images/vault.png',
+    tags: ['Next.js', 'Firebase', 'Material UI', 'RBAC', 'Security'],
+    hint: 'security app',
+    liveDemo: 'https://vault.siddharthsharabu.co.uk'
+  },
+  {
     title: 'The Deck Linux',
     description: 'A custom open-source Linux flavor for the BeagleBoard AI single-board computer.',
     longDescription: 'As part of my internship, I developed The Deck Linux, a specialized Linux distribution for the BeagleBoard AI. This project showcases my ability to create a tailored OS from the ground up. You can find the source code on SourceForge.',
@@ -97,7 +106,13 @@ export default function Projects() {
                         </DialogDescription>
                       </DialogHeader>
                       <div className="flex gap-4 mt-6">
-                        <Button>Live Demo <ArrowRight className="ml-2 h-4 w-4" /></Button>
+                        {project.liveDemo ? (
+                          <a href={project.liveDemo} target="_blank" rel="noopener noreferrer">
+                            <Button>Live Demo <ArrowRight className="ml-2 h-4 w-4" /></Button>
+                          </a>
+                        ) : (
+                          <Button disabled>Coming Soon <ArrowRight className="ml-2 h-4 w-4" /></Button>
+                        )}
                         <Button variant="secondary">
                            <a href="https://sourceforge.net/u/siddharth-1729/" target="_blank" rel="noopener noreferrer" aria-label="SourceForge">
                            <Github className="mr-2 h-4 w-4" /> Code

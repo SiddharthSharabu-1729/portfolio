@@ -1,5 +1,5 @@
 import { Card, CardContent } from '@/components/ui/card';
-import { Cloud, Container, GitBranch, Layers, Server, Terminal, Workflow, Code } from 'lucide-react';
+import { Cloud, Container, GitBranch, Layers, Server, Terminal, Workflow, Code, Brain } from 'lucide-react';
 import AnimatedSection from '@/components/AnimatedSection';
 
 const skills = [
@@ -9,6 +9,7 @@ const skills = [
   { icon: <Terminal className="h-8 w-8 text-primary" />, name: 'Linux' },
   { icon: <Layers className="h-8 w-8 text-primary" />, name: 'Terraform' },
   { icon: <Code className="h-8 w-8 text-primary" />, name: 'Python' },
+  { icon: <Brain className="h-8 w-8 text-primary" />, name: 'AI/ML' },
   { icon: <Code className="h-8 w-8 text-primary" />, name: 'Bash' },
   { icon: <Code className="h-8 w-8 text-primary" />, name: 'HTML' },
   { icon: <GitBranch className="h-8 w-8 text-primary" />, name: 'Git & GitHub' },

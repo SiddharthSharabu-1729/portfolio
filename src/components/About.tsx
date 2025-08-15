@@ -26,7 +26,7 @@ export default function About() {
                 <h2 className="text-3xl font-bold tracking-tighter font-headline sm:text-4xl md:text-5xl text-primary-foreground">Driven by Innovation and Efficiency</h2>
               </div>
               <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
-                I am a dedicated Systems Engineer with a passion for optimizing IT infrastructure. My goal is to leverage my skills in GCP, Linux, and container orchestration to drive innovation and contribute to a forward-thinking IT organization. I have a proven track record of managing critical systems, ensuring application performance, and collaborating with cross-functional teams to deliver robust solutions.
+                I am a Cloud & Systems Engineer with 3 years of experience in cloud-native deployments, infrastructure automation, and scalable system design. Alongside my expertise in GCP, Kubernetes, and DevOps, I have strong knowledge in AI/ML, including Generative AI (OpenAI, Google Gemini), LLM integration, and multi-agent orchestration—gained through academic and personal projects. I’m currently pursuing my M.Tech in AI & Machine Learning at BITS Pilani to deepen my skills in intelligent automation and advanced AI systems.
               </p>
               <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
                 I am a quick learner, adaptable to new technologies, and committed to providing effective resolutions that align with client needs. I have hands-on experience in networking and optimizing IT infrastructure for efficiency.
@@ -38,9 +38,6 @@ export default function About() {
                  <Link href="#projects">
                     <Button size="lg" variant="secondary">View My Work</Button>
                  </Link>
-                 <a href="/Siddharth's-RESUME.pdf" download>
-                    <Button size="lg" variant="outline">Download Resume</Button>
-                 </a>
               </div>
             </div>
           </div>
