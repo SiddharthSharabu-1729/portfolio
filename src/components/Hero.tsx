@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Button } from './ui/button';
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin, Twitter, Instagram, Mail } from 'lucide-react';
 import AnimatedSection from './AnimatedSection';
 
 export default function Hero() {
@@ -38,9 +38,14 @@ export default function Hero() {
                     <Linkedin className="h-6 w-6" />
                     </Button>
                 </a>
-                <a href="https://www.instagram.com/sid_reborn_350/" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                <a href="https://www.instagram.com/sid_reborn_350/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                     <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary">
-                    <Twitter className="h-6 w-6" />
+                    <Instagram className="h-6 w-6" />
+                    </Button>
+                </a>
+                <a href="mailto:siddharthasharabu@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
+                    <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary">
+                    <Mail className="h-6 w-6" />
                     </Button>
                 </a>
             </div>

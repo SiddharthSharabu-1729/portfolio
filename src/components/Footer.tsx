@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin, Twitter, Instagram, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export default function Footer() {
@@ -17,9 +17,14 @@ export default function Footer() {
               <Linkedin className="h-5 w-5" />
             </Button>
           </a>
-          <a href="https://www.instagram.com/sid_reborn_350/" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+          <a href="https://www.instagram.com/sid_reborn_350/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <Button variant="ghost" size="icon">
-              <Twitter className="h-5 w-5" />
+              <Instagram className="h-5 w-5" />
+            </Button>
+          </a>
+          <a href="mailto:siddharthasharabu@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
+            <Button variant="ghost" size="icon">
+              <Mail className="h-5 w-5" />
             </Button>
           </a>
         </div>

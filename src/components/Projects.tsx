@@ -16,7 +16,8 @@ const projects = [
     image: '/images/vault.png',
     tags: ['Next.js', 'Firebase', 'Material UI', 'RBAC', 'Security'],
     hint: 'security app',
-    liveDemo: 'https://vault.siddharthsharabu.co.uk'
+    liveDemo: 'https://vault.siddharthsharabu.co.uk',
+    code: 'https://github.com/SiddharthSharabu-1729/vault'
   },
   {
     title: 'The Deck Linux',
@@ -113,11 +114,12 @@ export default function Projects() {
                         ) : (
                           <Button disabled>Coming Soon <ArrowRight className="ml-2 h-4 w-4" /></Button>
                         )}
-                        <Button variant="secondary">
+                        {/* <Button variant="secondary">
                            <a href="https://sourceforge.net/u/siddharth-1729/" target="_blank" rel="noopener noreferrer" aria-label="SourceForge">
                            <Github className="mr-2 h-4 w-4" /> Code
                            </a>
-                        </Button>
+                        </Button> */}
+                        <Button variant="secondary" disabled><Github className="mr-2 h-4 w-4" /> Code <ArrowRight className="ml-2 h-4 w-4" /></Button>
                       </div>
                     </div>
                   </div>
